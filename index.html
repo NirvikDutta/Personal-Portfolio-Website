@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Protfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="Left">Nirvik's Portfolio</div>
+        <div class="Right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="FirstSection">
+        <div class="LeftSection">
+          Hi, My name is
+          <span class="purple">Nirvik</span>
+          <div>and I'm a passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+          <!-- Element to contain animated typing -->
+        </div>
+        <div class="RightSection">
+          <img src="1.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="SecondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer1.png" alt="" />
+            <div class="vertical-title">HTML Developer (2011-2013)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              dolorum consectetur fugit, possimus laborum placeat veniam dicta
+              impedit excepturi pariatur explicabo sunt error voluptatem qui
+              magnam adipisci doloribus, officiis minus?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer1.png" alt="" />
+            <div class="vertical-title">Node.js Developer (2013-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+              inventore quae, hic ex accusamus obcaecati magni alias molestiae
+              quis exercitationem dolorem pariatur enim recusandae repellat
+              impedit molestias nobis. Iusto, facilis.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer1.png" alt="" />
+            <div class="vertical-title">MERN Stack Developer (2015-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+              inventore quae, hic ex accusamus obcaecati magni alias molestiae
+              quis exercitationem dolorem pariatur enim recusandae repellat
+              impedit molestias nobis. Iusto, facilis.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer1.png" alt="" />
+            <div class="vertical-title">MERN Stack Developer (2015-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+              inventore quae, hic ex accusamus obcaecati magni alias molestiae
+              quis exercitationem dolorem pariatur enim recusandae repellat
+              impedit molestias nobis. Iusto, facilis.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer1.png" alt="" />
+            <div class="vertical-title">MERN Stack Developer (2015-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+              inventore quae, hic ex accusamus obcaecati magni alias molestiae
+              quis exercitationem dolorem pariatur enim recusandae repellat
+              impedit molestias nobis. Iusto, facilis.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Nirvik's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="footer-forth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; nirviksportfolio.in | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Frontend Developer.",
+          "Backend Developer.",
+          "&amp; Graphic Designer.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
